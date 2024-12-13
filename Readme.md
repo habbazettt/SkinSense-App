@@ -14,6 +14,10 @@ The app will employ machine learning and computer vision to analyze skin lesions
 
 Such a tool democratizes early detection by consolidating speed, accuracy, and access to diagnosis. It is specially designed for wide usage in under-resourced communities to guarantee equity in early screening. These efforts are put in place to diagnose proactively with reduced treatment burden, thereby improving patient outcomes for effective screening available to all.
 
+## Download App
+
+Download The App <a href="https://drive.google.com/file/d/1Pyg2PAsk7xpf79NdLq6ESEclDk0FppTf/view?usp=sharing">Here</a>
+
 ## Our Awesome Team Member
 
 |  Bangkit ID  |             Name             |    Learning Path   |           University           | LinkedIn |
