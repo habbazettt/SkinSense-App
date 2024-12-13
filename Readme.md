@@ -1,4 +1,4 @@
-# AquaCulture Mate
+# SkinSense Melanoma
 
 Welcome to SkinSense Melanoma Detection App
 

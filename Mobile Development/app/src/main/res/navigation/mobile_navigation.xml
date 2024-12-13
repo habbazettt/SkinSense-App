@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.capstone.skinsense.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_scan"
+        android:name="com.capstone.skinsense.ui.scan.ScanFragment"
+        android:label="@string/title_scan"
+        tools:layout="@layout/fragment_scan" >
+        <action
+            android:id="@+id/scanResultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.capstone.skinsense.ui.scan.ResultFragment"
+        android:label="ResultFragment">
+        <argument
+            android:name="imageUri"
+            app:argType="string" />
+        <argument
+            android:name="resultText"
+            app:argType="string" />
+        <argument
+            android:name="suggestionText"
+            app:argType="string" />
+        <argument
+            android:name="confidenceScore"
+            app:argType="float" />
+        <action
+            android:id="@+id/action_resultFragment_to_navigation_scan"
+            app:destination="@id/navigation_scan" />
+        <action
+            android:id="@+id/action_resultFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_save"
+        android:name="com.capstone.skinsense.ui.save.SaveFragment"
+        android:label="@string/title_save"
+        tools:layout="@layout/fragment_save">
+        <action
+            android:id="@+id/action_saveFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.capstone.skinsense.ui.save.DetailFragment"
+        android:label="Detail">
+        <argument
+            android:name="imageUri"
+            app:argType="string" />
+        <argument
+            android:name="result"
+            app:argType="string" />
+        <argument
+            android:name="suggestion"
+            app:argType="string" />
+        <argument
+            android:name="confidenceScore"
+            app:argType="float" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.capstone.skinsense.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

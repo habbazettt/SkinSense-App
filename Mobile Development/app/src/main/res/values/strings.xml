@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SkinSense</string>
+    <string name="title_home">Home</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_save">Save</string>
+    <string name="title_profile">Profile</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="empty_image_warning">Please insert a picture first\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rescan">Re-Scan</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="detail_text"><![CDATA[view more >]]></string>
+    <string name="try_now">Try Now!</string>
+    <string name="home_description">Detect skin cancer by simply uploading an image.\nReceive analysis results and relevant information about any skin concerns you may have.</string>
+    <string name="welcome">Welcome to SkinSense!</string>
+    <string name="hallo_buddies">Hallo, Buddies</string>
+    <string name="username">Username</string>
+    <string name="buddies">Buddies</string>
+    <string name="name">Buddies</string>
+    <string name="email">buddies@gmail.com</string>
+    <string name="phone">+628128374923</string>
+    <string name="name_title">Name</string>
+    <string name="email_title">Email</string>
+    <string name="phone_title">Phone</string>
+</resources>
